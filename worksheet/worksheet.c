@@ -48,7 +48,7 @@ int find_max(int *arr, int n, int *index);
  * Example: add_values(3, 4) returns 7
  */
 int add_values(int a, int b) {
-  return a + b
+  return a + b;
 }
 
 /**
