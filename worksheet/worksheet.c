@@ -86,7 +86,7 @@ void swap_values(int *a, int *b) {
  */
 int sum_array(int *arr, int n) {
   int sum = 0;
-  for (int i = 0; n < 1; i++) { 
+  for (int i = 0; i < n; i++) { 
    sum += arr[i];
   }
   return sum;
@@ -130,7 +130,7 @@ void reverse_array(int *arr, int n) {
  * Example: average([1,2], 2) returns 1.5
  */
 double average(int *arr, int n) {
-  int sum = 0 
+  int sum = 0;
   for (int i = 0; i < n; i++){
     sum += arr[i];
   }
